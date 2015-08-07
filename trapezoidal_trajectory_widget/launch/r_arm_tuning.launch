@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+
+<launch>
+
+    
+    <node name="vigir_r_arm_tuning"   pkg="trapezoidal_trajectory_widget"     type="trapezoidal_trajectory_widget"  output="screen" /> <!-- launch-prefix="xterm -e" / -->
+    <param name="chain_file" value="$(find trapezoidal_trajectory_widget)/launch/"/>
+    <param name="chain_name" value="r_arm"/>
+
+</launch>
+

@@ -1,0 +1,12 @@
+<library path="src">
+  <class name="SensorParamControlPlugin" type="vigir_rqt_sensor_param_control.sensor_param_control.SensorParamControlDialog" base_class_type="rqt_gui_py::Plugin">
+    <description>
+      A Python GUI plugin to set sensor parameters
+    </description>
+    <qtgui>
+      <label>Sensor parameter control</label>
+      <icon type="theme">system-search</icon>
+      <statustip>A Python GUI plugin to set sensor parameters.</statustip>
+    </qtgui>
+  </class>
+</library>

@@ -1,0 +1,12 @@
+<library path="src">
+  <class name="StableStepPlugin" type="vigir_rqt_stable_step.stable_step.StableStepDialog" base_class_type="rqt_gui_py::Plugin">
+    <description>
+      A Python GUI plugin to initiate stable steping behavior to recenter robot standing mode
+    </description>
+    <qtgui>
+      <label>Flor Stable Step UI</label>
+      <icon type="theme">system-search</icon>
+      <statustip>A Python GUI plugin to recenter robot feet in standing mode</statustip>
+    </qtgui>
+  </class>
+</library>

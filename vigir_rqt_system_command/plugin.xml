@@ -1,0 +1,12 @@
+<library path="src">
+  <class name="SystemCommandPlugin" type="vigir_rqt_system_command.system_command.SystemCommandDialog" base_class_type="rqt_gui_py::Plugin">
+    <description>
+      A Python GUI plugin to send /syscommand string
+    </description>
+    <qtgui>
+      <label>Flor Stable Step UI</label>
+      <icon type="theme">system-search</icon>
+      <statustip>A Python GUI plugin to send /syscommand string</statustip>
+    </qtgui>
+  </class>
+</library>

@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+
+<launch>
+
+    
+    <node name="vigir_r_arm_tuning"   pkg="sinusoidal_trajectory_widget"     type="sinusoidal_trajectory_widget"  output="screen" /> <!-- launch-prefix="xterm -e" / -->
+    <param name="chain_file" value="$(find sinusoidal_trajectory_widget)/launch/"/>
+    <param name="chain_name" value="r_arm"/>
+
+</launch>
+

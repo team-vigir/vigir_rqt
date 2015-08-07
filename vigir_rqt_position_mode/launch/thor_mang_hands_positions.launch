@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!-- This launch file uses the Gravity Controller library to provide joint control. -->
+
+<launch>
+
+   <node name="$(anon hand_position_mode_ui)" pkg="vigir_rqt_position_mode" type="position_mode_qt" output="screen" respawn="true">
+   <param name='num_files' value="3"/>
+   <param name='position_files/file_1' value="$(find vigir_rqt_position_mode)/launch/thor_l_arm_positions.txt"/>
+   <param name='position_files/file_2' value="$(find vigir_rqt_position_mode)/launch/thor_torso_positions.txt"/>
+   <param name='position_files/file_3' value="$(find vigir_rqt_position_mode)/launch/thor_r_arm_positions.txt"/>
+   <param name='time_factor' value="2.5" />
+   </node>
+
+</launch>
+

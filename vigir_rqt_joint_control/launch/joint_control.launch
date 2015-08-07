@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- This launch file uses the Gravity Controller library to provide joint control. -->
+
+<launch>
+
+   <node name="joint_control_ui" pkg="vigir_rqt_joint_control" type="joint_control" >
+   <param name='positions_file' value="$(find vigir_rqt_joint_control)/launch/topics.txt"/>
+   </node>
+
+</launch>
+

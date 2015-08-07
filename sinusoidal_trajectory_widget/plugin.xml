@@ -1,0 +1,12 @@
+<library path="src">
+  <class name="SinusoidalTrajectoryDialog" type="sinusoidal_trajectory_widget.sinusoidal_trajectory_widget.SinusoidalTrajectoryDialog" base_class_type="rqt_gui_py::Plugin">
+    <description>
+      A Python GUI plugin to assist in generating arm trajectory commands.
+    </description>
+    <qtgui>
+      <label>SinusoidTrajectory Widget</label>
+      <icon type="theme">system-search</icon>
+      <statustip>A Python GUI plugin to assist in generating sinusoidal trajectory profiles for quintic splines.</statustip>
+    </qtgui>
+  </class>
+</library>

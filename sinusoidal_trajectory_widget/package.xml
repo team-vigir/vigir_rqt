@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package>
+  <name>sinusoidal_trajectory_widget</name>
+  <version>0.0.0</version>
+  <description>The sinusoidal_trajectory_widget package</description>
+
+  <maintainer email="hanna@torcrobotics.com">Shawn Hanna</maintainer>
+  <author email="hanna@torcrobotics.com">Shawn Hanna</author>
+
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <buildtool_depend>trajectory_msgs</buildtool_depend>
+
+  <run_depend>trajectory_msgs</run_depend>
+
+  <export>
+  <rqt_gui plugin="${prefix}/plugin.xml"/>
+  </export>
+</package>

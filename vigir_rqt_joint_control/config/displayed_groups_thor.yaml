@@ -1,0 +1,25 @@
+groups:
+  - r_arm_group
+  - l_arm_group
+  - r_leg_group
+  - l_leg_group
+  - head_group
+  - torso_group
+r_arm_group:
+  label: "Right arm"
+  controller_topic : /thor_mang/right_arm_traj_controller/command
+l_arm_group:
+  label: "Left arm"
+  controller_topic : /thor_mang/left_arm_traj_controller/command
+r_leg_group:
+  label: "Right leg"
+  controller_topic : /thor_mang/right_leg_traj_controller/command
+l_leg_group:
+  label: "Left leg"
+  controller_topic : /thor_mang/left_leg_traj_controller/command
+head_group:
+  label: "Head"
+  controller_topic : /thor_mang/head_traj_controller/command
+torso_group:
+  label: "Torso"
+  controller_topic : /thor_mang/torso_traj_controller/command

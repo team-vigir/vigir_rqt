@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<package>
+  <name>trapezoidal_trajectory_widget</name>
+  <version>0.0.0</version>
+  <description>The trapezoidal_trajectory_widget package</description>
+
+  <!-- One maintainer tag required, multiple allowed, one person per tag -->
+  <maintainer email="conner@torcrobotics.com">David C. Conner</maintainer>
+  <author email="conner@torcrobotics.com">David C. Conner</author>
+
+
+  <!-- One license tag required, multiple allowed, one license per tag -->
+  <!-- Commonly used license strings: -->
+  <!--   BSD, MIT, Boost Software License, GPLv2, GPLv3, LGPLv2.1, LGPLv3 -->
+  <license>BSD</license>
+
+
+  <!-- Url tags are optional, but mutiple are allowed, one per tag -->
+  <!-- Optional attribute type can be: website, bugtracker, or repository -->
+  <!-- Example: -->
+  <!-- <url type="website">http://ros.org/wiki/vigir_ocs_msgs</url> -->
+
+
+
+
+  <!-- The *_depend tags are used to specify dependencies -->
+  <!-- Dependencies can be catkin packages or system dependencies -->
+  <buildtool_depend>catkin</buildtool_depend>
+  <buildtool_depend>trajectory_msgs</buildtool_depend>
+
+  <run_depend>trajectory_msgs</run_depend>
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <!-- You can specify that this package is a metapackage here: -->
+    <!-- <metapackage/> -->
+
+    <!-- Other tools can request additional information be placed here -->
+    <rqt_gui plugin="${prefix}/plugin.xml"/>
+
+  </export>
+</package>

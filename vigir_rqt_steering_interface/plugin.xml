@@ -1,0 +1,12 @@
+<library path="src">
+  <class name="SteeringInterfacePlugin" type="vigir_rqt_steering_interface.steering_interface.SteeringInterfaceDialog" base_class_type="rqt_gui_py::Plugin">
+    <description>
+      A Python GUI plugin to send joint commands for simple steering of vehicle
+    </description>
+    <qtgui>
+      <label>Flor Step Interface UI</label>
+      <icon type="theme">system-search</icon>
+      <statustip>A Python GUI plugin to send joint commands for simple steering of vehicle</statustip>
+    </qtgui>
+  </class>
+</library>

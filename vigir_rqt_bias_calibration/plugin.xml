@@ -1,0 +1,12 @@
+<library path="src">
+  <class name="BiasCalibrationPlugin" type="vigir_rqt_bias_calibration.bias_calibration.BiasCalibrationDialog" base_class_type="rqt_gui_py::Plugin">
+    <description>
+      A Python GUI plugin to control the Atlas robot sensor head.
+    </description>
+    <qtgui>
+      <label>Atlas Bias Calibration</label>
+      <icon type="theme">system-search</icon>
+      <statustip>A Python GUI plugin to tweak neck biases.</statustip>
+    </qtgui>
+  </class>
+</library>

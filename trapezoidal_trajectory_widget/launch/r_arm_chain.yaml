@@ -1,0 +1,10 @@
+delay_time: 1.0
+ramp_up_time:  1.0
+dwell_time: 0.5
+ramp_down_time: 1.0
+hold_time: 1.0
+ramp_start_fraction: 0.05
+ramp_end_fraction: 0.95
+chain_param_name: "/right_arm_chain"
+joint_state_topic: "/atlas/joint_states"
+trajectory_topic: "/trajectory_controllers/right_arm_traj_controller/command"

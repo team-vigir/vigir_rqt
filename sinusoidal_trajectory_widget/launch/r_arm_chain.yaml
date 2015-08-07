@@ -1,0 +1,8 @@
+delay_time: 1.0
+amplitude:  1.0
+frequency: 0.25
+frequency_limit: 1.0
+iterations: 3.0
+chain_param_name: "/right_arm_chain"
+joint_state_topic: "/atlas/joint_states"
+trajectory_topic: "/trajectory_controllers/right_arm_traj_controller/command"

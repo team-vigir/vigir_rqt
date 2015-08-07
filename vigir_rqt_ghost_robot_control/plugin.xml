@@ -1,0 +1,12 @@
+<library path="src">
+  <class name="GhostRobotControlPlugin" type="vigir_rqt_ghost_robot_control.ghost_robot_control.GhostRobotControlPlugin" base_class_type="rqt_gui_py::Plugin">
+    <description>
+      A Python GUI plugin to work simultaneously with a "ghost" robot and the "real" robot in Gazebo
+    </description>
+    <qtgui>
+      <label>Flor Ghost Robot Control</label>
+      <icon type="theme">system-search</icon>
+      <statustip>A Python GUI plugin to work simultaneously with a "ghost" robot and the "real" robot in Gazebo</statustip>
+    </qtgui>
+  </class>
+</library>

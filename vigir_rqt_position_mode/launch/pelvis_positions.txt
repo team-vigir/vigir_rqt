@@ -1,0 +1,15 @@
+pelvis, forward, lateral, height, roll, pitch, yaw
+indices, 30,31,32,33,34, 35
+center,    0.0, 0.0, 0.85, 0.0,  0.0, 0.0
+manipulate,   0.0, 0.0, 0.75, 0.0, -0.03, 0.0
+slight forward,    0.0, 0.0, 0.85, 0.0,  0.03, 0.0
+slight backward,   0.0, 0.0, 0.85, 0.0, -0.03, 0.0
+tilt forward,    0.0, 0.0, 0.85, 0.0,  0.07, 0.0
+tilt backward,   0.0, 0.0, 0.85, 0.0, -0.07, 0.0
+slight left,    0.0, 0.0, 0.85, 0.0, 0.0,  0.03
+slight right,   0.0, 0.0, 0.85, 0.0, 0.0, -0.03
+mid left,    0.0, 0.0, 0.85, 0.0, 0.0,  0.07
+mid right,   0.0, 0.0, 0.85, 0.0, 0.0, -0.07
+shift left,    0.0,  0.05, 0.85, 0.0, 0.0,  0.03
+shift right,   0.0, -0.05, 0.85, 0.0, 0.0, -0.03
+

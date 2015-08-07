@@ -1,0 +1,33 @@
+groups:
+  - r_arm_group
+  - l_arm_group
+  - r_leg_group
+  - l_leg_group
+  - neck_group
+  - torso_group
+  - active_right_hand
+  - active_left_hand
+r_arm_group:
+  label: "Right arm"
+  controller_topic : /joint_controllers/right_arm_traj_controller/command
+l_arm_group:
+  label: "Left arm"
+  controller_topic : /joint_controllers/left_arm_traj_controller/command
+r_leg_group:
+  label: "Right leg"
+  controller_topic : /joint_controllers/right_leg_traj_controller/command
+l_leg_group:
+  label: "Left leg"
+  controller_topic : /joint_controllers/left_leg_traj_controller/command
+neck_group:
+  label: "Neck"
+  controller_topic : /joint_controllers/neck_traj_controller/command
+torso_group:
+  label: "Torso"
+  controller_topic : /joint_controllers/torso_traj_controller/command
+active_right_hand:
+  label: "Right hand"
+  controller_topic : /hand_controllers/right_hand_traj_controller/command
+active_left_hand:
+  label: "Left Hand"
+  controller_topic : /hand_controllers/left_hand_traj_controller/command

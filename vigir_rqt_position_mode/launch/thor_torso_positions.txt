@@ -1,0 +1,16 @@
+torso, waist_pan, waist_tilt
+indices,         27,    28
+Center,        0.0,  0.0
+Slight Left,   0.3,  0.0
+Mid Left,      0.6,  0.0
+Far Left,      1.0,  0.0
+Slight Right, -0.3,  0.0
+Mid Right ,   -0.6,  0.0
+Far Right ,   -1.0,  0.0
+Slight Forward, 0.0,  0.1
+Mid Forward ,   0.0,  0.2
+Far Forward ,   0.0,  0.3
+Slight Back, 0.0, -0.1
+Mid Back ,   0.0, -0.2
+Far Back ,   0.0, -0.3
+

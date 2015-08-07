@@ -1,0 +1,12 @@
+<library path="src">
+  <class name="BDIPelvisPosePlugin" type="vigir_rqt_bdi_pelvis_pose.pelvis_pose.BDIPelvisPoseDialog" base_class_type="rqt_gui_py::Plugin">
+    <description>
+      A Python GUI plugin to manually adjust BDI pelvis pose in Manipulate mode
+    </description>
+    <qtgui>
+      <label>Flor BDI Pelvis Pose Control UI</label>
+      <icon type="theme">system-search</icon>
+      <statustip>A Python GUI plugin to manually adjust joint positions</statustip>
+    </qtgui>
+  </class>
+</library>

@@ -1,0 +1,12 @@
+<library path="src">
+  <class name="TrapezoidalTrajectoryDialog" type="trapezoidal_trajectory_widget.trapezoidal_trajectory_widget.TrapezoidalTrajectoryDialog" base_class_type="rqt_gui_py::Plugin">
+    <description>
+      A Python GUI plugin to assist in generating arm trajectory commands.
+    </description>
+    <qtgui>
+      <label>TrapezoidTrajectory Widget</label>
+      <icon type="theme">system-search</icon>
+      <statustip>A Python GUI plugin to assist in generating trapezoidal trajectory profiles for quintic splines.</statustip>
+    </qtgui>
+  </class>
+</library>

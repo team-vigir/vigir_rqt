@@ -1,0 +1,12 @@
+<library path="src">
+  <class name="ControlModePlugin" type="vigir_rqt_control_mode.control_mode.ControlModeDialog" base_class_type="rqt_gui_py::Plugin">
+    <description>
+      A Python GUI plugin to change the main controller desired mode
+    </description>
+    <qtgui>
+      <label>Flor Controller Mode Change UI</label>
+      <icon type="theme">system-search</icon>
+      <statustip>A Python GUI plugin to change the main controller desired mode</statustip>
+    </qtgui>
+  </class>
+</library>

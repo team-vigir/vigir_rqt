@@ -1,0 +1,12 @@
+<library path="src">
+  <class name="HeadControlPlugin" type="vigir_rqt_head_control.head_control.HeadControlDialog" base_class_type="rqt_gui_py::Plugin">
+    <description>
+      A Python GUI plugin to control the Atlas robot sensor head.
+    </description>
+    <qtgui>
+      <label>Atlas sensor head control</label>
+      <icon type="theme">system-search</icon>
+      <statustip>A Python GUI plugin to control the Atlas robot sensor head.</statustip>
+    </qtgui>
+  </class>
+</library>

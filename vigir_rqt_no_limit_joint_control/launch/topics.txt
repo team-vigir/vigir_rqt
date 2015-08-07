@@ -1,0 +1,3 @@
+Left Arm,l_arm,l_arm_shz,l_arm_shx,l_arm_ely,l_arm_elx,l_arm_wry,l_arm_wrx
+Torso,torso,back_bkz,back_bky,back_bkx
+Right Arm,r_arm,r_arm_shz,r_arm_shx,r_arm_ely,r_arm_elx,r_arm_wry,r_arm_wrx

@@ -1,0 +1,6 @@
+#Group, joint_0/sensor_bias/control_bias/velocity_bias,joint_1/sensor_bias/control_bias/velocity_bias, ...
+Left Leg,l_leg,l_leg_hpz/0.0/0.0/1.0,l_leg_hpx/0.0/0.0/1.0,l_leg_hpy/0.0/0.0/1.0,l_leg_kny/0.0/0.0/1.0,l_leg_aky/0.0/0.0/1.0,l_leg_akx/0.0/0.0/1.0
+Left Arm,l_arm,l_arm_shz/-1.035/0.0/1.0,l_arm_shx/-1.065/0.0/1.0,l_arm_ely/1.035/0.0/1.0,l_arm_elx/0.8315/0.0/1.0,l_arm_wry/-1.055/0.0/1.0,l_arm_wrx/1.035/0.0/1.0
+Torso,torso,back_bkz/0.0/0.0/1.0,back_bky/0.0/0.0/1.0,back_bkx/0.0/0.0/1.0,neck_ry/0.05/0.0/1.0
+Right Arm,r_arm,r_arm_shz/0.014/0.0/1.0,r_arm_shx/1.055/0.0/1.0,r_arm_ely/1.03/0.0/1.0,r_arm_elx/1.09/0.0/1.0,r_arm_wry/1.029/0.0/1.0,r_arm_wrx/1.036/0.0/1.0
+Right Leg,r_leg,r_leg_hpz/0.0/0.0/1.0,r_leg_hpx/0.0/0.0/1.0,r_leg_hpy/0.0/0.0/1.0,r_leg_kny/0.0/0.0/1.0,r_leg_aky/0.0/0.0/1.0,r_leg_akx/0.0/0.0/1.0

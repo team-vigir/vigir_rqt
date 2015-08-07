@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!-- This launch file uses the Gravity Controller library to provide joint control. -->
+
+<launch>
+
+   <node name="r_arm_positions_ui" pkg="vigir_rqt_position_mode" type="position_mode_qt" >
+   <param name='num_files' value="2"/>
+   <param name='position_files/file_1' value="$(find vigir_rqt_position_mode)/launch/r_arm_positions.txt"/>
+   <param name='position_files/file_2' value="$(find vigir_rqt_position_mode)/launch/torso_positions.txt"/>
+   </node>
+
+</launch>
+

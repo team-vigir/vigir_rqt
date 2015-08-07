@@ -1,0 +1,12 @@
+<library path="src">
+  <class name="PositionModePlugin" type="vigir_rqt_position_mode.position_mode.PositionModeDialog" base_class_type="rqt_gui_py::Plugin">
+    <description>
+      A Python GUI plugin to set pre-specified positions via trajecotry control
+    </description>
+    <qtgui>
+      <label>Flor Position Mode Change UI</label>
+      <icon type="theme">system-search</icon>
+      <statustip>A Python GUI plugin to set pre-specified positions via trajecotry control</statustip>
+    </qtgui>
+  </class>
+</library>

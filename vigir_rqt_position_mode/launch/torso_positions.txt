@@ -1,0 +1,16 @@
+torso, back_bkz,back_bky,back_bkx
+indices,         0,    1,     2
+Center,        0.0,  0.0,   0.0
+Slight Left,   0.2,  0.0,   0.0
+Mid Left,      0.4,  0.0,   0.0
+Far Left,      0.6,  0.0,   0.0
+Slight Right, -0.2,  0.0,   0.0
+Mid Right ,   -0.4,  0.0,   0.0
+Far Right ,   -0.6,  0.0,   0.0
+Slight Forward, 0.0,  0.08,   0.0
+Mid Forward ,   0.0,  0.16,   0.0
+Far Forward ,   0.0,  0.32,   0.0
+Slight Back, 0.0, -0.08,   0.0
+Mid Back ,   0.0, -0.16,   0.0
+Far Back ,   0.0, -0.32,   0.0
+

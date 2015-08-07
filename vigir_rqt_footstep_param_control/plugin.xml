@@ -1,0 +1,12 @@
+<library path="src">
+  <class name="FootstepParamControlPlugin" type="vigir_rqt_footstep_param_control.footstep_param_control.FootstepParamControlDialog" base_class_type="rqt_gui_py::Plugin">
+    <description>
+      A Python GUI plugin to set footstep planner parameters
+    </description>
+    <qtgui>
+      <label>Footstep planner parameter control</label>
+      <icon type="theme">system-search</icon>
+      <statustip>A Python GUI plugin to set footstep planner parameters.</statustip>
+    </qtgui>
+  </class>
+</library>

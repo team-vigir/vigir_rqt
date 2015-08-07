@@ -1,0 +1,12 @@
+<library path="src">
+  <class name="FootstepTerrainControlPlugin" type="vigir_rqt_footstep_terrain_control.footstep_terrain_control.FootstepTerrainControlDialog" base_class_type="rqt_gui_py::Plugin">
+    <description>
+      A Python GUI plugin to set footstep planner terrain
+    </description>
+    <qtgui>
+      <label>Footstep planner terrain control</label>
+      <icon type="theme">system-search</icon>
+      <statustip>A Python GUI plugin to set footstep planner terrain.</statustip>
+    </qtgui>
+  </class>
+</library>
