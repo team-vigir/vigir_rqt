@@ -5,10 +5,10 @@
 
    <node name="$(anon hand_position_mode_ui)" pkg="vigir_rqt_position_mode" type="position_mode_qt" output="screen">
    <param name='num_files' value="8"/>
-   <param name='position_files/file_1' value="$(find vigir_rqt_position_mode)/launch/$(env FLOR_TASK_TYPE)_l_arm_positions.txt"/>
+   <param name='position_files/file_1' value="$(find vigir_rqt_position_mode)/launch/$(optenv FLOR_TASK_TYPE valve)_l_arm_positions.txt"/>
    <param name='position_files/file_2' value="$(find vigir_rqt_position_mode)/launch/torso_positions.txt"/>
    <param name='position_files/file_3' value="$(find vigir_rqt_position_mode)/launch/pelvis_positions.txt"/>
-   <param name='position_files/file_4' value="$(find vigir_rqt_position_mode)/launch/$(env FLOR_TASK_TYPE)_r_arm_positions.txt"/>
+   <param name='position_files/file_4' value="$(find vigir_rqt_position_mode)/launch/$(optenv FLOR_TASK_TYPE valve)_r_arm_positions.txt"/>
    <param name='position_files/file_5' value="$(find vigir_rqt_position_mode)/launch/l_leg_positions.txt"/>
    <param name='position_files/file_6' value="$(find vigir_rqt_position_mode)/launch/r_leg_positions.txt"/>
    <param name='position_files/file_7' value="$(find vigir_rqt_position_mode)/launch/l_arm_checkerboard.txt"/>
